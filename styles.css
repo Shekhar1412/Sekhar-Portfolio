@@ -9,6 +9,7 @@
 }
 body{
     font-family: 'Slabo 27px', serif;
+    margin: 0px;
 }
 
 hr{
@@ -30,22 +31,28 @@ hr{
 
 .links{
     font-weight: bold;
-    color: var(--light);
+    
     text-decoration: none;
-    border: solid 1px  ;
-    border-color: var(--dark);
-    border-radius:0.3rem ;
     padding: 0.3rem;
     ;
 }
 
 .link-primary{
     background-color: var(--primary-color);
+    border: solid 2px;
+    border-color: var(--dark);
+    border-radius:0.3rem ;
+    color: var(--light);
 }
 
 .link-secondary{
     color: var(--primary-color);
+    border: solid 2px;
+    border-color: var(--dark);
+    border-radius:0.3rem ;
+    
 }
+
 
 
 /**list**/
@@ -61,6 +68,77 @@ hr{
 
 /**navigation**/
 
+.navigation{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    
+}
+
+.navigation .links{
+    color: white;
+    font-weight: normal;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+   
+}
+
+.nav-brand{
+    font-weight: bold;
+    color: white ;
+}
+
+.navigation .links-active{
+    font-weight: bold;
+}
 
 
+/**headers**/
+.hero{
+    padding: 2rem;
+}
 
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    color: var(--dark);
+    text-align: center;
+}
+
+/**Section**/
+.section{
+    padding: 2rem;
+}
+.section h3{
+    text-align: center;
+   
+}
+
+.lit-col{
+    background-color: var(--light);
+}
+
+/**footer**/
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+    color: var(--light);
+    border-top-right-radius: 1rem;
+}
+
+.footer .links{
+    color: var(--light);
+    font-weight: normal;
+}
+
+.footer ul{
+    padding-inline-start:0px;
+}
