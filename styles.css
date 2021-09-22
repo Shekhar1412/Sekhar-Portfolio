@@ -147,3 +147,21 @@ hr{
 .footer ul{
     padding-inline-start:0px;
 }
+
+
+/* Special changes made for the project page */
+/* 
+
+/* */ 
+.pro h2{
+    color: var(--primary-color);
+}
+
+.pro .links{
+    padding: 0rem 1rem;
+    margin-right: 1rem;
+}
+
+.pro .pro-list-item{
+    padding: 1rem;
+}
