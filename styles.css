@@ -165,3 +165,13 @@ hr{
 .pro .pro-list-item{
     padding: 1rem;
 }
+
+
+/* Special changes made for the blog-1 page */
+/* 
+
+/* */ 
+
+.hero .blog-img{
+    max-height: 100rem;
+}
